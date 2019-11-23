@@ -1,0 +1,194 @@
+body, html {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    color: #707070;
+    font-family: "Courier New";
+}
+
+#brand {
+    font-size: 200%;
+    margin: 0;
+    position: relative;
+    left: 2vw;
+    top: 9vh;
+    font-weight: 100;
+    max-width: 40%;
+    white-space: nowrap;
+}
+
+#nav-links {
+    display: flex;
+    flex-direction: row;
+    font-size: 140%;
+    width: 20vw;
+    position: relative;
+    left: 35vw;
+    top: 1vh;
+    list-style-type: none;
+}
+
+a.nav-link {
+    color: #707070;
+    margin-left: 2vw;
+    text-decoration: none;
+}
+
+.nav-link :hover {
+    color: rgb(207, 0, 193)
+}
+
+hr.title-bar {
+    height: 2vh;
+    background-color: blue;
+    border-radius: 1px;
+    width: 100%;
+}
+
+#blurb {
+    max-width: 60%;
+    margin: 10vh 0 0 7vw;
+    font-size: 210%;
+}
+
+#sidebar {
+    float: right;
+    margin-right: 2vw;
+    width: 20vw;
+    height: 60vh;
+    text-align: left;
+}
+
+#sidebar h6 {
+    margin: 4vh auto auto auto;
+}
+
+#sidebar h3 {
+    font-weight: 100;
+    font-size: 220%;
+    position: relative;
+    top: 8vh;
+}
+
+#links {
+    height: 55vh;
+    width: 20vw;
+    background-color: lightblue;
+    position: relative;
+    top: 7vh;
+    text-transform: uppercase;
+    padding-top: 1vh;
+}
+#links h6{
+	text-align: center;
+}
+a.link {
+    color: darkblue;
+    text-decoration: none;
+    margin-right: 2vw;
+}
+#links li{    
+	margin-left: -2vw;
+	padding-top: 1vw;
+}
+
+a.link:hover {
+    color: rgb(168, 0, 157);
+}
+
+.sidebarTitle {
+    font-size: 120%;
+    color: black;
+}
+
+.sidebarList {
+    list-style-type: none;
+    font-size: 120%;
+}
+
+#infoContent {
+    max-width: 65vw;
+    margin: 5vw 5vw 5vw 5vw;
+}
+
+.infoBox {
+    max-width: 100%;
+    margin: 5vh 0 15vh 0;
+}
+
+.infoBox h2 {
+    text-align: right;
+    margin-right: 3vw;
+    font-size: 240%;
+    font-weight: 400;
+    text-transform: uppercase
+}
+
+.infoBox p {
+    width: 80%;
+    margin: auto;
+    
+}
+
+.code {
+    background-color: rgb(44, 44, 44);
+    color: white;
+    min-height: 15vh;
+    max-height: 50vh;
+    width: 60vw;
+    font-size: 140%;
+    margin: auto auto 3vh auto;
+    padding: 5px 0 5px 15px;
+    border-radius: 10px;
+}
+
+footer {
+    color: white;
+    position: fixed;
+    background-color: rgb(32, 32, 32, .9);
+    bottom: 0;
+    height: 12vh;
+    width: 100%;
+    padding-left: 1vw;
+}
+
+code {
+    color: rgb(204, 204, 204);
+}
+
+.functionKey {
+    color: rgb(166, 89, 255)
+}
+
+.functionName {
+    color: rgb(102, 155, 255)
+}
+
+.param {
+    color: orange
+}
+
+.keyword {
+    color: rgb(209, 5, 209);
+}
+
+.method {
+    color: lightskyblue
+}
+
+.key {
+    color: rgb(101, 209, 101);
+}
+
+.stringValue {
+    color: rgb(101, 209, 101);
+}
+
+.boolValue {
+    color: rgb(255, 26, 255)
+}
+
+.numValue {
+    color: orange
+}
