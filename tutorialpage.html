@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!--     <meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
+		
+		<title>Timothy's Tutorial</title>
+		<link href="tutorial.css" rel="stylesheet">
+	</head>
+	<body>
+		<header class="slideInLeft">
+			<h1 id="brand">
+			<em>Timothy's Tutorial</em>
+			</h1>
+			<br>
+			<nav>
+				<ul id="nav-links">
+					<li><a href="/" class="nav-link"><em>Home</em></a>
+				</li>
+				<li>
+					<a href="#functions" class="nav-link"><em>Arrays</em></a>
+				</li>
+				<li>
+					<a href="#objects"  class="nav-link"><em>Objects</em></a>
+				</li>
+				<li>
+					<a href="#arrays"  class="nav-link"><em>Functions</em></a>
+				</li>
+			</ul>
+		</nav>
+		<hr class="title-bar" />
+	</header>
+	<sidebar id="sidebar" >
+	<h3>Favorite Links</h3>
+	<div id="links">
+		<h6 class="sidebarTitle">JavaScript Help</h6>
+		<ul class="sidebarList">
+			<li>
+				<a class="link" target="_blank" href="https://www.crockford.com/javascript/">Douglas&nbsp;Crockford</a>
+			</li>
+			<li><a target="_blank" href="https://www.w3schools.com/" class="link">w3 schools</a></li>
+			<li><a target="_blank" href="https://stackoverflow.com/" class="link">stack overflow</a></li>
+		</ul>
+	</div>
+	</sidebar>
+	<div id="blurb" class="animated">
+		<p>
+			Welcome to my tutorial on some basic Javascript concepts.  Follow the links above to the various topics, or just scroll at leisure!
+		</p>
+	</div>
+	<section id="infoContent">
+		<article class="infoBox">
+			<a id="arrays"></a>
+			<h2>Arrays</h2>
+			<div class="codeBlock">
+	                <pre>
+	            		<code>
+	            		let instructors = [ 'Autumn', 'Dave'', 'Alecx' ];
+    					console.log(instructors[2]);
+	            		</code>
+					</pre>
+				</div>
+				<p>
+					An array in JavaScript as actually a very special object! Arrays take data of any type, but they have no keys. Instead, to access that information again, we use <em>array indexing</em>. Where we assume the first position in the array is the <em>0 index</em>, and each item onward increments by one. Arrays also come with a lot of special methods that we can use on them. The MDN docs have lots of helpful information on arrays too!
+				</p>
+			</article>
+		<article class="infoBox">
+			<a id="Objects"></a>
+			<h2>Objects</h2>
+			<div class="codeBlock">
+	                <pre>
+                		<code>
+	            			let cat = {
+								name: 'Quin',
+								breed: 'tortoiseshell',
+								age: 5,
+								isCute: true,
+							}
+						</code>
+					</pre>
+			</div>
+			<p>
+				In the simplest of terms, an object is a collection of properties. A property is a key to value relationship. Like name, and the string 'Quin'. The cat object has a property with a key of 'name', that has the value of 'Quin'. Objects properties can have a value of any data type, even another object! Objects are very popular in holding together lots of varied, but related data, and they come with many built in methods for working with them. The MDN docs will have more information for you!
+			</p>
+			</article>
+			<article class="infoBox">
+			<a id="Functions"></a>
+			<h2>Functions</h2>
+			<div class="codeBlock">
+	                <pre>
+                		<code>
+	            			function addNums(numOne, numTwo) {
+								return numOne + numTwo;
+							}
+						
+						console.log(addNums(2, 2));
+						</code>
+					</pre>
+			</div>
+			<p>
+				Functions are chunks of functionality we declare for later use. Like in this example we have created an addNums() function, to take two numbers and return the sum of those numbers to us. numOne, and numTwo are parameters, meaning they are variables that will only exist inside the scope of the function, and they will assist us with the logic we need to perform. Since those variables are contained in the functions scope, when the function finishes it's execution, those variables are destroyed.
+
+
+			</p>
+			</article>
+		</section>
+		<footer>
+			<p>2019 - Tim Martin</p>
+		</footer>
+	</body>
+</html>
